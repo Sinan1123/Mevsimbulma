@@ -34,7 +34,7 @@
                     mevsim = "Sonbahar";
                 }
 
-                if (ayNumber <= 0 || ayNumber >= 13)
+                if (ayNumber < 0 || ayNumber >= 13)
                 {
                     Console.WriteLine("1 ile 12 arasında bir sayı girin");
                 }
